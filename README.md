@@ -1,4 +1,5 @@
-`npm install` and `node app.js` to run the app  
+`npm install` to intall dependecies   
+`node app.js` to run the app    
    
 # Postman
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/e073133da016adbd3a56)
