@@ -29,7 +29,7 @@ curl 'http://localhost:5000/tabs/607a8123b54e018e88f92e0e' -X PUT -H 'content-ty
 ```
 
 ### RESPONSE
-```
+```javascript
 updated{ _id: 607a8123b54e018e88f92e0e,
   name: 'Hello World',
   description: 'The chronic of the disease at hand',
@@ -45,9 +45,12 @@ updated{ _id: 607a8123b54e018e88f92e0e,
 
 
 ### DELETE REQUEST
+```
 curl 'http://localhost:5000/tabs/607a8123b54e018e88f92e0e' -X DELETE -H 'content-type: application/json' -H 'accept: application/json'
+```
 
 ### RESPONSE
+```javascript
 deleted { _id: 607a8123b54e018e88f92e0e,
   name: 'Lalalla',
   description: 'The chronic of the disease at hand',
@@ -59,3 +62,10 @@ deleted { _id: 607a8123b54e018e88f92e0e,
        description: 'ECOC score at the start of IO' } ],
   createdAt: 2021-04-17T06:33:07.069Z,
   updatedAt: 2021-04-17T07:07:21.085Z,
+```
+
+## Improvements to do
+
+- Separtate modules for controller, schema and make a router for keeping scalibility in mind. Checkout https://github.com/mnauf/api_design, where I have developed like this
+- Put mongodb credentials in environment variable
+- Add testing
