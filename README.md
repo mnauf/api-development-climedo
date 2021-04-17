@@ -68,7 +68,7 @@ deleted { _id: 607a8123b54e018e88f92e0e,
 ```
 
 # Improvements to do
-
-- Separtate modules for controller, schema and make a router for keeping scalibility in mind. Checkout https://github.com/mnauf/api_design, where I have developed like this
+- Add Input validations to save the app from giving unexpected responses and also direct the user with an appropriate response to educate him what did he do wrong   
+- Separtate modules for controller, schema and make a router for keeping scalibility in mind. Checkout https://github.com/mnauf/api_design, where I have developed like this   
 - Put mongodb credentials in environment variable
 - Add testing
