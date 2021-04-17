@@ -1,4 +1,4 @@
-`npm install` to intall dependecies   
+`npm install` to install dependecies   
 `node app.js` to run the app    
    
 # Postman
